@@ -1,0 +1,75 @@
+*{font-family:Tahoma;}
+
+.sfondoimmagine{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo{width:150px;
+margin-top:70px;
+margin-left:260px;
+margin-right:260px;
+}
+
+span{display: inline-block;}
+
+.charging{display: block;}
+
+div{
+  margin-left:80px;
+  margin-right:80px;}
+
+section > div{
+  display: inline-block;
+ margin-left: 0px;
+margin-top: 10px;
+}
+
+.sfondo_oscurato{
+  height: 585px;
+  width: 850px;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  align: center;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.row, .pulsante{
+  text-align:center;}
+
+.row{
+  background-color: lime;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.paragrafo{
+  color: lime;
+  text-align: center;
+  margin: auto;
+  }
+
+.arrow:before{content: "\2192";}
+
+.percentuale1, .percentuale2, .percentuale3 {
+  height: 20px;
+  border-radius: 5px;
+  }
+
+.percentuale1{
+  width: 250px;
+  background: orange;}
+
+.percentuale2{
+  width: 500px;
+  background: lime;}
+
+.percentuale3{
+  width: 80px;
+  background: red;}
